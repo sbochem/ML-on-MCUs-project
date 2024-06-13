@@ -9,6 +9,8 @@ The folder `CIFAR_inference` and `MNIST_inference` contain the STM32 project use
 
 `models` contains tflite models that were generated with `cifar_train.ipynb` or `mnist_train.ipynb`. 
 
+The folder `ONNX_pretrained` contains pretrained LeNet and ResNet models pre-trained on CIFAR-10.
+
 The scripts `inference_cifar_camera.py` and `inference_mnist_camera.py`
 
 The notebook `pruning_models.ipynb` contains several implementations of Pruning mostly from this source (https://arxiv.org/abs/2102.00554). Unfortunately, these methods never really found their use as Pruning didn't help in reducing the memory footprint of the models.
